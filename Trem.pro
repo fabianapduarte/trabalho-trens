@@ -11,12 +11,11 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = Trem
 TEMPLATE = app
 
+SOURCES += src\main.cpp\
+           src\mainwindow.cpp\
+           src\trem.cpp
 
-SOURCES += main.cpp\
-        mainwindow.cpp \
-    trem.cpp
+HEADERS  += include\mainwindow.h \
+            include\trem.h
 
-HEADERS  += mainwindow.h \
-    trem.h
-
-FORMS    += mainwindow.ui
+FORMS    += src\mainwindow.ui
