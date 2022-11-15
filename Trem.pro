@@ -19,3 +19,5 @@ HEADERS  += include\mainwindow.h \
             include\trem.h
 
 FORMS    += src\mainwindow.ui
+
+INCLUDEPATH += include/
