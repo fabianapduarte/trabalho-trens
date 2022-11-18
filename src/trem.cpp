@@ -9,6 +9,20 @@ Trem::Trem(int ID, int x, int y){
     velocidade = 100;
 }
 
+void Trem::setVelocidade(int value){
+    if (value==200) {
+        terminate();
+    } else {
+        start();
+        velocidade = value;
+        if(value==0){
+            velocidade = 1;
+        }
+    }
+    // 200 + (value)*(5 - 200)/(200);
+    //converte 0-200 em 200-5: velocidadeLow + (value - sliderLow)*(velocidadeHigh - velocidadeLow)/(sliderHigh - sliderLow)
+}
+
 //Função a ser executada após executar trem->START
 void Trem::run(){
     while(true){

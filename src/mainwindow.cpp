@@ -27,6 +27,12 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(trem4,SIGNAL(updateGUI(int,int,int)),SLOT(updateInterface(int,int,int)));
     connect(trem5,SIGNAL(updateGUI(int,int,int)),SLOT(updateInterface(int,int,int)));
 
+    trem1->start();
+    trem2->start();
+    trem3->start();
+    trem4->start();
+    trem5->start();
+
 }
 
 //Função que será executada quando o sinal UPDATEGUI for emitido
@@ -57,26 +63,24 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-/*
- * Ao clicar, trens começam execução
- */
-void MainWindow::on_pushButton_clicked()
-{
-    trem1->start();
-    trem2->start();
-    trem3->start();
-    trem4->start();
-    trem5->start();
+void MainWindow::on_horizontalSlider_1_valueChanged(int value){
+    trem1->setVelocidade(value);
 }
 
-/*
- * Ao clicar, trens param execução
- */
-void MainWindow::on_pushButton_2_clicked()
-{
-    trem1->terminate();
-    trem2->terminate();
-    trem3->terminate();
-    trem4->terminate();
-    trem5->terminate();
+
+void MainWindow::on_horizontalSlider_2_valueChanged(int value){
+    trem2->setVelocidade(value);
 }
+
+void MainWindow::on_horizontalSlider_3_valueChanged(int value){
+    trem3->setVelocidade(value);
+}
+
+void MainWindow::on_horizontalSlider_4_valueChanged(int value){
+    trem4->setVelocidade(value);
+}
+
+void MainWindow::on_horizontalSlider_5_valueChanged(int value){
+    trem5->setVelocidade(value);
+}
+
