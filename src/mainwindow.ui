@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1152</width>
-    <height>328</height>
+    <width>1320</width>
+    <height>339</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -150,15 +150,15 @@ color: rgb(255, 255, 255);</string>
    <widget class="QSlider" name="horizontalSlider_1">
     <property name="geometry">
      <rect>
-      <x>940</x>
+      <x>990</x>
       <y>30</y>
-      <width>160</width>
+      <width>211</width>
       <height>21</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>160</width>
+      <width>16777215</width>
       <height>16777215</height>
      </size>
     </property>
@@ -331,9 +331,9 @@ color: rgb(255, 255, 255);</string>
    <widget class="QSlider" name="horizontalSlider_2">
     <property name="geometry">
      <rect>
-      <x>940</x>
+      <x>990</x>
       <y>60</y>
-      <width>160</width>
+      <width>211</width>
       <height>21</height>
      </rect>
     </property>
@@ -377,9 +377,9 @@ color: rgb(255, 255, 255);
    <widget class="QSlider" name="horizontalSlider_3">
     <property name="geometry">
      <rect>
-      <x>940</x>
+      <x>990</x>
       <y>90</y>
-      <width>160</width>
+      <width>211</width>
       <height>21</height>
      </rect>
     </property>
@@ -423,9 +423,9 @@ color: rgb(255, 255, 255);
    <widget class="QSlider" name="horizontalSlider_4">
     <property name="geometry">
      <rect>
-      <x>940</x>
+      <x>990</x>
       <y>120</y>
-      <width>160</width>
+      <width>211</width>
       <height>21</height>
      </rect>
     </property>
@@ -469,9 +469,9 @@ color: rgb(255, 255, 255);
    <widget class="QSlider" name="horizontalSlider_5">
     <property name="geometry">
      <rect>
-      <x>940</x>
+      <x>990</x>
       <y>150</y>
-      <width>160</width>
+      <width>211</width>
       <height>21</height>
      </rect>
     </property>
@@ -492,6 +492,381 @@ color: rgb(255, 255, 255);
     </property>
     <property name="invertedAppearance">
      <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>935</x>
+      <y>32</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Trem 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>935</x>
+      <y>62</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Trem 2</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>935</x>
+      <y>92</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Trem 3</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>935</x>
+      <y>122</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Trem 4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>935</x>
+      <y>152</y>
+      <width>49</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Trem 5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="velT1">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>32</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="velT2">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>62</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="velT3">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>92</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="velT4">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>122</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="velT5">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>152</y>
+      <width>31</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>100</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="xyT5">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>152</y>
+      <width>80</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>x - y</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="xyT4">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>122</y>
+      <width>80</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>x - y</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="xyT1">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>32</y>
+      <width>80</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>x - y</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="xyT3">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>92</y>
+      <width>80</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>x - y</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="xyT2">
+    <property name="geometry">
+     <rect>
+      <x>1250</x>
+      <y>62</y>
+      <width>80</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>80</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>x - y</string>
     </property>
    </widget>
    <zorder>label_trilho1_3</zorder>
@@ -519,13 +894,28 @@ color: rgb(255, 255, 255);
    <zorder>horizontalSlider_4</zorder>
    <zorder>label_trem5</zorder>
    <zorder>horizontalSlider_5</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>velT1</zorder>
+   <zorder>velT2</zorder>
+   <zorder>velT3</zorder>
+   <zorder>velT4</zorder>
+   <zorder>velT5</zorder>
+   <zorder>xyT5</zorder>
+   <zorder>xyT4</zorder>
+   <zorder>xyT1</zorder>
+   <zorder>xyT3</zorder>
+   <zorder>xyT2</zorder>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1152</width>
+     <width>1320</width>
      <height>21</height>
     </rect>
    </property>
