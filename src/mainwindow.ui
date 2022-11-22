@@ -33,6 +33,9 @@ color: rgb(255, 255, 255);</string>
     <property name="text">
      <string>T1</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QLabel" name="label_trilho1">
     <property name="geometry">
@@ -145,6 +148,9 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>T2</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QSlider" name="horizontalSlider_1">
@@ -373,6 +379,9 @@ color: rgb(255, 255, 255);
     <property name="text">
      <string>T3</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QSlider" name="horizontalSlider_3">
     <property name="geometry">
@@ -419,6 +428,9 @@ color: rgb(255, 255, 255);
     <property name="text">
      <string>T4</string>
     </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
    <widget class="QSlider" name="horizontalSlider_4">
     <property name="geometry">
@@ -464,6 +476,9 @@ color: rgb(255, 255, 255);
     </property>
     <property name="text">
      <string>T5</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QSlider" name="horizontalSlider_5">
@@ -916,7 +931,7 @@ color: rgb(255, 255, 255);
      <x>0</x>
      <y>0</y>
      <width>1320</width>
-     <height>21</height>
+     <height>24</height>
     </rect>
    </property>
   </widget>

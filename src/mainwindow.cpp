@@ -32,7 +32,6 @@ MainWindow::MainWindow(QWidget *parent) :
     trem3->start();
     trem4->start();
     trem5->start();
-
 }
 
 //Função que será executada quando o sinal UPDATEGUI for emitido
@@ -73,7 +72,6 @@ void MainWindow::on_horizontalSlider_1_valueChanged(int value){
     trem1->setVelocidade(value);
     ui->velT1->setText(QString::number(value));
 }
-
 
 void MainWindow::on_horizontalSlider_2_valueChanged(int value){
     trem2->setVelocidade(value);
