@@ -2,7 +2,6 @@
 #include <QtCore>
 
 static QMutex mutex[7];
-static bool areasOcupadas[7] = {false};
 const int deslocamento = 10;
 
 //Construtor
@@ -21,25 +20,17 @@ void Trem::setVelocidade(int value){
 }
 
 void liberarRegiaoCritica(int regiao) {
-    if (areasOcupadas[regiao]) {
-        areasOcupadas[regiao] = false;
-        mutex[regiao].unlock();
-    }
+    mutex[regiao].tryLock();
+    mutex[regiao].unlock();
 }
 
 bool verificarRegiaoCritica(int regiao) {
-    if (mutex[regiao].tryLock()) {
-        areasOcupadas[regiao] = true;
-        return true;
-    }
-    return false;
+    return mutex[regiao].tryLock();
 }
 
 bool verificarDuasRegioesCriticas(int regiao1, int regiao2) {
     if (mutex[regiao1].tryLock()) {
         if (mutex[regiao2].tryLock()) {
-            areasOcupadas[regiao1] = true;
-            areasOcupadas[regiao2] = true;
             return true;
         } else {
             mutex[regiao1].unlock();
