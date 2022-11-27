@@ -39,24 +39,18 @@ void MainWindow::updateInterface(int id, int x, int y){
     switch(id){
     case 1: //Atualiza a posição do objeto da tela (quadrado) que representa o trem1
         ui->label_trem1->setGeometry(x,y,21,17);
-        //imprime na tela as coordenadas
-        ui->xyT1->setText(QString::number(x)+" - "+QString::number(y));
         break;
     case 2: //Atualiza a posição do objeto da tela (quadrado) que representa o trem2
         ui->label_trem2->setGeometry(x,y,21,17);
-        ui->xyT2->setText(QString::number(x)+" - "+QString::number(y));
         break;
     case 3: //Atualiza a posição do objeto da tela (quadrado) que representa o trem3
         ui->label_trem3->setGeometry(x,y,21,17);
-        ui->xyT3->setText(QString::number(x)+" - "+QString::number(y));
         break;
     case 4: //Atualiza a posição do objeto da tela (quadrado) que representa o trem4
         ui->label_trem4->setGeometry(x,y,21,17);
-        ui->xyT4->setText(QString::number(x)+" - "+QString::number(y));
         break;
     case 5: //Atualiza a posição do objeto da tela (quadrado) que representa o trem5
         ui->label_trem5->setGeometry(x,y,21,17);
-        ui->xyT5->setText(QString::number(x)+" - "+QString::number(y));
         break;
     default:
         break;
@@ -68,28 +62,32 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+QString MainWindow::atualizarTexto(int value){
+    return QString::number(200-value);
+}
+
 void MainWindow::on_horizontalSlider_1_valueChanged(int value){
     trem1->setVelocidade(value);
-    ui->velT1->setText(QString::number(value));
+    ui->velT1->setText(atualizarTexto(value));
 }
 
 void MainWindow::on_horizontalSlider_2_valueChanged(int value){
     trem2->setVelocidade(value);
-    ui->velT2->setText(QString::number(value));
+    ui->velT2->setText(atualizarTexto(value));
 }
 
 void MainWindow::on_horizontalSlider_3_valueChanged(int value){
     trem3->setVelocidade(value);
-    ui->velT3->setText(QString::number(value));
+    ui->velT3->setText(atualizarTexto(value));
 }
 
 void MainWindow::on_horizontalSlider_4_valueChanged(int value){
     trem4->setVelocidade(value);
-    ui->velT4->setText(QString::number(value));
+    ui->velT4->setText(atualizarTexto(value));
 }
 
 void MainWindow::on_horizontalSlider_5_valueChanged(int value){
     trem5->setVelocidade(value);
-    ui->velT5->setText(QString::number(value));
+    ui->velT5->setText(atualizarTexto(value));
 }
 

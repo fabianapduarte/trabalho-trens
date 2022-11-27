@@ -21,6 +21,8 @@ public slots:
     void updateInterface(int,int,int);
 
 private slots:
+    QString atualizarTexto(int);
+
     void on_horizontalSlider_1_valueChanged(int value);
 
     void on_horizontalSlider_2_valueChanged(int value);
